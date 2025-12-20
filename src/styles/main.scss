@@ -1,0 +1,14 @@
+@use 'font';
+@use 'var';
+
+body {
+    font-family: var.$font;
+}
+
+a {
+    transition: var.$tr;
+}
+
+a:hover {
+    color: red;
+}
